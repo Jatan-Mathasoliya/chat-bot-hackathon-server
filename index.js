@@ -7,7 +7,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: ["http://localhost:5174"], // Update with your frontend's deployed link
+  origin: ["http://localhost:5173"], // Update with your frontend's deployed link
   methods: ["GET", "POST", "DELETE"],
   allowedHeaders: ["Content-Type"],
 }));
